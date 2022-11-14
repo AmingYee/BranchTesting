@@ -6,6 +6,7 @@ public abstract class Animal {
     }
     public abstract void makeSound();
     public abstract boolean eat(String foodType);
+    public abstract String showMood(boolean mood);
     public String Name() {
         return name;
     }
