@@ -8,5 +8,15 @@ public class Main {
 
         dog.eat("Dogfood");
         cat.eat("fishes");
+
+        System.out.println("dog true");
+        dog.showMood(true);
+        System.out.println("dog false");
+        dog.showMood(false);
+
+        System.out.println("cat true");
+        cat.showMood(true);
+        System.out.println("cat false");
+        cat.showMood(false);
     }
 }
