@@ -14,12 +14,11 @@ public class Dog extends Animal{
     }
 
     @Override
-    public String showMood(boolean mood) {
+    public void showMood(boolean mood) {
         if (mood){
             System.out.println("logrer");
         } else if (!mood){
             System.out.println("knurrer");
         }
-        return null;
     }
 }
